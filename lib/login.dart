@@ -38,7 +38,7 @@ class LoginScreen extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                // Ação para o botão "Login"
+                Navigator.pushNamed(context, '/menuInicial');
               },
               child: Text('Login'),
             ),

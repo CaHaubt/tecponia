@@ -20,7 +20,7 @@ class TecponiaApp extends StatelessWidget {
       routes: {
         '/login': (context) => LoginScreen(),
         '/cadastro': (context) => CadastroScreen(),
-        '/menu': (context) => MenuScreen(),
+        '/menuInicial': (context) => MenuScreen(),
 
       },
     );
