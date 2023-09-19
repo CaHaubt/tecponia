@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'login.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override
@@ -40,10 +41,10 @@ class WelcomeScreen extends StatelessWidget {
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
-                  // Adicione ação para o botão "Começar" aqui
+                  Navigator.pushNamed(context, '/login');
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: cor1, // Define a cor de fundo do botão como azul
+                  primary: cor1,
                 ),
                 child: Text('Começar'),
               ),
