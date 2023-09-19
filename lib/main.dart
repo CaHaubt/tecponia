@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tecponia/cadastro.dart';
 import 'home.dart';
 import 'login.dart';
+import 'menuInicial.dart';
 
 void main() {
   runApp(TecponiaApp());
@@ -19,6 +20,8 @@ class TecponiaApp extends StatelessWidget {
       routes: {
         '/login': (context) => LoginScreen(),
         '/cadastro': (context) => CadastroScreen(),
+        '/menu': (context) => MenuScreen(),
+
       },
     );
   }
