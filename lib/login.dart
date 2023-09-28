@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'cadastro.dart';
+import 'menuInicial.dart';
 
 class LoginScreen extends StatelessWidget {
   @override
@@ -37,7 +38,7 @@ class LoginScreen extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                // Ação para o botão "Login"
+                Navigator.pushNamed(context, '/menuInicial');
               },
               child: Text('Login'),
             ),

@@ -62,6 +62,12 @@ flutter:
   assets:
     - assets/logo.png
     - assets/mao.png
+    - assets/ph.png
+    - assets/alimentador.png
+    - assets/nivelAgua.png
+    - assets/oxigenio.png
+    - assets/temperatura.png
+    - assets/turbidez.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
